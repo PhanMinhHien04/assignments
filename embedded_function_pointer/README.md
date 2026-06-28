@@ -36,4 +36,4 @@ make run
 # Result Description
 
 The test verifies that the function pointer correctly controls state transitions in the finite state machine. The program starts in the **IDLE** state, then transitions to **RUNNING**, followed by **ERROR**, and finally returns to **IDLE**. This sequence repeats continuously, demonstrating that the function pointer is successfully updated after each state execution. The output confirms dynamic function dispatch and validates the use of function pointers for implementing a clean and maintainable state machine.
-````
+
