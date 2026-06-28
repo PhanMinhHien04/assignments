@@ -33,8 +33,6 @@ make run
 
 <img width="842" height="278" alt="image" src="https://github.com/user-attachments/assets/06b7412c-5b87-463b-aa54-315b50d24a12" />
 
-> *(Replace the image above with your uploaded test result screenshot.)*
-
 # Result Description
 
 The test verifies that the function pointer correctly controls state transitions in the finite state machine. The program starts in the **IDLE** state, then transitions to **RUNNING**, followed by **ERROR**, and finally returns to **IDLE**. This sequence repeats continuously, demonstrating that the function pointer is successfully updated after each state execution. The output confirms dynamic function dispatch and validates the use of function pointers for implementing a clean and maintainable state machine.
